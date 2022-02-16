@@ -15,7 +15,6 @@ import java.util.Map;
 import java.util.Optional;
 
 public class XRayClient {
-  public static final String TEST_EXEC_KEY = "testExecKey";
   private final XRayService xRayService = new XRayService();
   private static final Logger log = LogManager.getLogger(XRayClient.class);
 
