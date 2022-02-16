@@ -17,7 +17,6 @@ import java.util.Map;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class TestResultHolder {
-  private static final Logger logger = LogManager.getLogger(TestResultHolder.class);
 
   private static final Map<String, List<Status>> scenarioMap = new HashMap<>();
   private static TestResultHolder instance;
